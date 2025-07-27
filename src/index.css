@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --color-beige:#F5EFEB;
+  --color-navy-blue: #2F4156;
+  --color-teal: #567C8D;
+  --color-sky-blue: #C8D9E6;
+
+  --font-EB-Garamond: 'EB Garamond', serif;
+  --font-Inter: 'Inter', sans-serif; 
+
+  color: var(--color-beige);
+  background-color: var(--color-navy-blue);
+}
+
+
