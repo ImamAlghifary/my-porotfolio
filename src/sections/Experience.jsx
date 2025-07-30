@@ -7,7 +7,7 @@ const Experience = () => {
                 <p className="text-5xl font-bold" style={{ fontFamily: 'var(--font-EB-Garamond)' }}>Experience</p>
                 <p className="text-xl mt-2" style={{ fontFamily: 'var(--font-Inter)' }}>Where I’ve Been & What I’ve Done</p>
             </div>
-            <div className="relative w-screen flex-grow">
+            <div className="relative w-full flex-grow">
                 <CarouselComponent />
             </div>
         </section>
