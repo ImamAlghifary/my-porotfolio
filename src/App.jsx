@@ -11,14 +11,18 @@ import Footer from './sections/Footer'
 function App() {
   
   return (
-    <div className="">
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Skills/>
-      <Experience/>
-      <Projects/>
-      <Footer/>
+    <div className="w-full min-h-screen">
+        <Navbar />
+    <div className="max-w-[1440px] mx-auto">
+        <div className='mb-10 sm:mb-0'>
+          <Hero />
+        </div>
+        <About/>
+        <Skills />
+        <Experience />
+        <Projects />
+        <Footer />
+      </div>
     </div>
   )
 }

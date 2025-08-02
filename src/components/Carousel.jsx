@@ -4,43 +4,11 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import './css/carousel.css';
+import slides from '../data/experienceData';
 
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 
 const CarouselComponent = () => {
-  const slides = [
-    {
-      id: 1,
-      image: 'https://picsum.photos/id/1011/1920/1080', 
-      title: 'Capturing Moments',
-      description: 'Explore the beauty of the world through my lens.',
-    },
-    {
-      id: 2,
-      image: 'https://picsum.photos/id/1015/1920/1080',
-      title: 'Innovative Solutions',
-      description: 'Crafting elegant and functional web experiences.',
-    },
-    {
-      id: 3,
-      image: 'https://picsum.photos/id/1019/1920/1080',
-      title: 'Creative Visions',
-      description: 'Bringing ideas to life with code and design.',
-    },
-    {
-      id: 4,
-      image: 'https://picsum.photos/id/1022/1920/1080',
-      title: 'Digital Landscapes',
-      description: 'Where technology meets artistry.',
-    },
-    {
-      id: 5,
-      image: 'https://picsum.photos/id/1025/1920/1080',
-      title: 'My Journey',
-      description: 'A showcase of my skills and passion.',
-    },
-  ];
-
   return (
     <Swiper
       spaceBetween={0}
@@ -72,6 +40,9 @@ const CarouselComponent = () => {
               <h2 className="text-4xl md:text-6xl font-bold font-EB-Garamond leading-tight" >
                 {slide.description}
               </h2>
+              {slide.link && slide.link.trim !== '' && (
+                <a href={slide.link} target="_blank" className='text-2xl border-b-4 p-1 mt-3 hover:text-teal hover:border-teal'>Report</a>
+              )}
             </div>
           </div>
         </SwiperSlide>

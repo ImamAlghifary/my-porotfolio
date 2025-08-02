@@ -67,10 +67,10 @@ const Skills = () => {
             {filteredSkillsIcons.length > 0 ? (
               filteredSkillsIcons.map((skill, index) => (
                 <div key={index} 
-                className="flex flex-col text-navy-blue items-center justify-center text-center"
+                className="flex flex-col text-navy-blue  hover:text-teal items-center justify-center text-center cursor-pointer transition-transform duration-300 transform hover:scale-110"
                 onClick={() => setSelectedSkill(skill)}
                 >
-                  <svg className="text-navy-blue fill-current" width={32} height={32} role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="text-navy-blue fill-current hover:text-teal " width={32} height={32} role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <title>{skill.name}</title>
                     <path d={skill.icon} />
                   </svg>

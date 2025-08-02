@@ -1,62 +1,90 @@
+// import React from 'react';
+
+// const Footer = () => {
+//   return (
+//     <footer className="bg-navy-blue text-beige py-12">
+//   <div className="border-y border-beige py-10 mb-8">
+//     <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
+//       {/* About / Quick Link */}
+//       <div className="text-left">
+//         <h3 className="text-2xl font-bold mb-4 font-EB-Garamond">Quick Links</h3>
+//         <p className="text-sm leading-relaxed font-Inter">
+//           Welcome to my portfolio. I'm a passionate and detail-oriented developer with a strong interest in IoT, data
+//           systems, and digital design. My work focuses on building reliable, scalable, and user-friendly solutions
+//           that bridge technology and real-world impact.
+//         </p>
+//       </div>
+
+//       {/* Social Media */}
+//       <div className="text-left md:border-l md:border-beige md:pl-8">
+//         <h3 className="text-2xl font-bold mb-4 font-EB-Garamond">Social Media</h3>
+//         <ul className="mt-4 flex space-x-6 items-center">
+//           <li>
+//             <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform duration-200">
+//               <svg className="w-6 h-6 fill-current text-beige hover:text-sky-blue" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+//                 <title>GitHub</title>
+//                 <path d="...your GitHub path here..."/>
+//               </svg>
+//             </a>
+//           </li>
+//           {/* Add more icons like LinkedIn/Twitter */}
+//         </ul>
+//       </div>
+//     </div>
+//   </div>
+
+//   <div className="text-center text-sm font-Inter">
+//     © {new Date().getFullYear()} Imam. All rights reserved.
+//   </div>
+// </footer>
+
+//   );
+// };
+
+// export default Footer;
+
 import React from 'react';
 
 const Footer = () => {
   return (
     <footer className="bg-navy-blue text-beige py-12">
-      <div className='border-y border-beige py-10 mb-8'>
-        <div className=" container mx-auto text-wrap grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Column 1: Quick Link / About Me */}
-            <div className="text-left">
-            <h3 className="text-2xl font-bold mb-4 font-EB-Garamond">Quick Link</h3>
-            <p className="text-sm leading-relaxed font-Inter text-wrap">
-                Welcome to my portfolio. I'm a passionate and detail-oriented developer with a strong interest in IoT, data
-                systems, and digital design. My work focuses on building reliable, scalable, and user-friendly solutions
-                that bridge technology and real-world impact.
+      <div className="border-y border-beige py-10 mb-8">
+        <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="text-left">
+            <h3 className="text-2xl font-bold mb-4 font-EB-Garamond">Quick Links</h3>
+            <p className="text-sm leading-relaxed font-Inter">
+              Welcome to my portfolio. I'm a passionate and detail-oriented developer with a strong interest in IoT, data
+              systems, and digital design. My work focuses on building reliable, scalable, and user-friendly solutions
+              that bridge technology and real-world impact.
             </p>
-            {/* You can add actual links here later */}
-            {/* <ul className="mt-4 space-y-2">
-                <li><a href="#" className="hover:text-sky-blue transition-colors duration-300" style={{ fontFamily: 'var(--font-Inter)' }}>Link 1</a></li>
-                <li><a href="#" className="hover:text-sky-blue transition-colors duration-300" style={{ fontFamily: 'var(--font-Inter)' }}>Link 2</a></li>
-            </ul> */}
-            </div>
-
-            {/* Column 2: Social Media */}
-            <div className="text-left md:border-l md:border-beige md:pl-8"> {/* Added left border for separation */}
-            <h3 className="text-2xl font-bold mb-4" style={{ fontFamily: 'var(--font-EB-Garamond)' }}>Social Media</h3>
-            <p className="text-sm leading-relaxed" style={{ fontFamily: 'var(--font-Inter)' }}>
-                Welcome to my portfolio. I'm a passionate and detail-oriented developer with a strong interest in IoT, data
-                systems, and digital design. My work focuses on building reliable, scalable, and user-friendly solutions
-                that bridge technology and real-world impact.
-            </p>
-            {/* Social media icons/links can go here */}
-            {/* <ul className="mt-4 flex space-x-4">
-                <li><a href="#" className="hover:text-sky-blue transition-colors duration-300"><i className="fab fa-linkedin text-2xl"></i></a></li>
-                <li><a href="#" className="hover:text-sky-blue transition-colors duration-300"><i className="fab fa-github text-2xl"></i></a></li>
-                <li><a href="#" className="hover:text-sky-blue transition-colors duration-300"><i className="fab fa-twitter text-2xl"></i></a></li>
-            </ul> */}
-            </div>
-
-            {/* Column 3: Another Quick Link / Contact Info */}
-            <div className="text-left md:border-l md:border-beige md:pl-8"> {/* Added left border for separation */}
-            <h3 className="text-2xl font-bold mb-4" style={{ fontFamily: 'var(--font-EB-Garamond)' }}>Quick Link</h3>
-            <p className="text-sm leading-relaxed" style={{ fontFamily: 'var(--font-Inter)' }}>
-                Welcome to my portfolio. I'm a passionate and detail-oriented developer with a strong interest in IoT, data
-                systems, and digital design. My work focuses on building reliable, scalable, and user-friendly solutions
-                that bridge technology and real-world impact.
-            </p>
-            {/* Contact info or other links */}
-            {/* <ul className="mt-4 space-y-2">
-                <li><a href="mailto:your.email@example.com" className="hover:text-sky-blue transition-colors duration-300" style={{ fontFamily: 'var(--font-Inter)' }}>Email Me</a></li>
-                <li><a href="#" className="hover:text-sky-blue transition-colors duration-300" style={{ fontFamily: 'var(--font-Inter)' }}>Resume</a></li>
-            </ul> */}
-            </div>
+          </div>
+          <div className="text-left md:border-l md:border-beige md:pl-8">
+            <h3 className="text-2xl font-bold mb-4 font-EB-Garamond">Social Media</h3>
+            <ul className="mt-4 flex space-x-6 items-center">
+              <li>
+                <a href="https://github.com/ImamAlghifary" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform duration-200">
+                  <svg className="w-6 h-6 fill-current text-beige hover:text-sky-blue" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <title>GitHub</title>
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.304.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.467-2.381 1.236-3.221-.124-.303-.535-1.524.118-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.046.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/imam-alghifary/" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform duration-200">
+                  <svg className="w-6 h-6 fill-current text-beige hover:text-teal" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <title>LinkedIn</title>
+                    <path d="M22.23 0H1.77C.79 0 0 .78 0 1.75v20.5C0 23.22.79 24 1.77 24h20.46c.98 0 1.77-.78 1.77-1.75V1.75C24 .78 23.21 0 22.23 0zM7.05 20.48H3.5V8.92h3.55v11.56zM5.3 7.57a2.23 2.23 0 1 1 0-4.46 2.23 2.23 0 0 1 0 4.46zM20.5 20.48h-3.48v-5.6c0-1.34-.02-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3.48V8.92h3.35v1.54h.05c.47-.88 1.62-1.8 3.32-1.8 3.56 0 4.22 2.34 4.22 5.37v6.55z"/>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
 
-      </div>  
-        {/* Copyright Notice */}
-        <div className="text-center text-sm font-Inter" >
-            © Copyright {new Date().getFullYear()} Imam. All rights reserved.
-        </div>
+      <div className="text-center text-sm font-Inter">
+        © {new Date().getFullYear()} Imam. All rights reserved.
+      </div>
     </footer>
   );
 };
