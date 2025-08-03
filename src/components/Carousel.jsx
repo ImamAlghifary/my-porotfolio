@@ -25,11 +25,11 @@ const CarouselComponent = () => {
     >
       {slides.map((slide) => (
         <SwiperSlide key={slide.id}>
-          <div className="relative w-full h-full">
+          <div className="relative w-full min-h-[420px] h-full">
             <img
               src={slide.image}
               alt={slide.title}
-              className="w-full h-full object-cover"
+              className="w-full min-h-[400px] h-full object-cover"
             />
             <div className="absolute inset-0 bg-black opacity-40 z-10"></div>
 
@@ -37,7 +37,7 @@ const CarouselComponent = () => {
               <p className="font-Inter text-lg mb-2 uppercase tracking-widest">
                 {slide.title}
               </p>
-              <h2 className="text-4xl md:text-6xl font-bold font-EB-Garamond leading-tight" >
+              <h2 className="text-2xl md:text-6xl font-bold font-EB-Garamond leading-tight" >
                 {slide.description}
               </h2>
               {slide.link && slide.link.trim !== '' && (

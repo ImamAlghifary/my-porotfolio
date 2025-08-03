@@ -7,8 +7,8 @@ const About = () => {
         <p className="text-6xl">About Me</p>
         <p className="text-2xl">Who I am & What I do </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mx-auto">
-        <div className="h-[400px] sm:h-[500px] relative overflow-hidden">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 mx-auto">
+        <div className="h-[400px] md:h-[500px] relative overflow-hidden">
           <img
             src="about_section1.jpg"
             alt="Main about me photo"
@@ -25,9 +25,8 @@ const About = () => {
           </div>
         </div>
 
-        {/* Stacked Images on the right with gradient */}
-        <div className="flex flex-col gap-4">
-          <div className="h-[240px] relative overflow-hidden">
+        <div className="flex flex-col gap-2">
+          <div className="h-[246px] relative overflow-hidden">
             <img
               src="about_section2.jpg"
               alt="About me detail photo 1"
