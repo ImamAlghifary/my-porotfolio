@@ -11,7 +11,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="text-left md:border-l md:border-beige md:pl-8">
-            <h3 className="text-2xl font-bold mb-4 font-EB-Garamond">Social Media</h3>
+            <h3 className="text-2xl font-bold mb-4 font-EB-Garamond">Professional Links</h3>
             <ul className="mt-4 flex space-x-6 items-center">
               <li>
                 <a href="https://github.com/ImamAlghifary" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform duration-200">
