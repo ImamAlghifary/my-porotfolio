@@ -1,48 +1,3 @@
-// import React from 'react';
-
-// const Footer = () => {
-//   return (
-//     <footer className="bg-navy-blue text-beige py-12">
-//   <div className="border-y border-beige py-10 mb-8">
-//     <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
-//       {/* About / Quick Link */}
-//       <div className="text-left">
-//         <h3 className="text-2xl font-bold mb-4 font-EB-Garamond">Quick Links</h3>
-//         <p className="text-sm leading-relaxed font-Inter">
-//           Welcome to my portfolio. I'm a passionate and detail-oriented developer with a strong interest in IoT, data
-//           systems, and digital design. My work focuses on building reliable, scalable, and user-friendly solutions
-//           that bridge technology and real-world impact.
-//         </p>
-//       </div>
-
-//       {/* Social Media */}
-//       <div className="text-left md:border-l md:border-beige md:pl-8">
-//         <h3 className="text-2xl font-bold mb-4 font-EB-Garamond">Social Media</h3>
-//         <ul className="mt-4 flex space-x-6 items-center">
-//           <li>
-//             <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform duration-200">
-//               <svg className="w-6 h-6 fill-current text-beige hover:text-sky-blue" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-//                 <title>GitHub</title>
-//                 <path d="...your GitHub path here..."/>
-//               </svg>
-//             </a>
-//           </li>
-//           {/* Add more icons like LinkedIn/Twitter */}
-//         </ul>
-//       </div>
-//     </div>
-//   </div>
-
-//   <div className="text-center text-sm font-Inter">
-//     © {new Date().getFullYear()} Imam. All rights reserved.
-//   </div>
-// </footer>
-
-//   );
-// };
-
-// export default Footer;
-
 import React from 'react';
 
 const Footer = () => {
@@ -50,12 +5,9 @@ const Footer = () => {
     <footer className="bg-navy-blue text-beige py-12">
       <div className="border-y border-beige py-10 mb-8">
         <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="text-left">
-            <h3 className="text-2xl font-bold mb-4 font-EB-Garamond">Quick Links</h3>
+          <div className="text-left flex items-center">
             <p className="text-sm leading-relaxed font-Inter">
-              Welcome to my portfolio. I'm a passionate and detail-oriented developer with a strong interest in IoT, data
-              systems, and digital design. My work focuses on building reliable, scalable, and user-friendly solutions
-              that bridge technology and real-world impact.
+             Thanks for visiting my portfolio!
             </p>
           </div>
           <div className="text-left md:border-l md:border-beige md:pl-8">
