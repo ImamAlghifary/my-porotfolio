@@ -1,6 +1,15 @@
 const projects = [
     {
-      uuid: 'd8c5f9b4-f3c2-4a0b-8d5f-1c4b1a4a4f8d',
+      uuid: '1',
+      title: 'Inventory Management and Monitoring System',
+      description: 'Fullstack Inventory Management and Monitoring System integrating IoT sensors, RFID, and AI features.',
+      techStack: ['React', 'Express', 'MongoDB', 'Node RED', 'Arduino IDE'],
+      image: 'project_5.png', 
+      link: 'https://github.com/AwarewarAlmighty/SenseHarvest.git',
+      tag: 'Web Development', 
+    },
+    {
+      uuid: '2',
       title: 'Portofolio Website',
       description: 'A personal portfolio website to showcase my skills and projects.',
       techStack: ['React', 'Tailwind CSS', 'Vite'],
@@ -9,7 +18,7 @@ const projects = [
       tag: 'Web Development', 
     },
     {
-      uuid: 'a7b8c9d1-e1f2-3g4h-5i6j-7k8l9m0n1p2q',
+      uuid: '3',
       title: 'Electromagnetic AMCS',
       description: 'A real-time monitoring system for electromagnetic signals using ESP32, GPS, SignalHound.',
       techStack: ['Python', 'Node.js', 'Grafana', 'PostgreSQL', 'Arduino'],
@@ -18,7 +27,7 @@ const projects = [
       tag: 'Internet of Things',
     },
     {
-      uuid: 'a7b8c9d0-e1f2-3g4h-5i6j-7k8l9m0n1p2q',
+      uuid: '4',
       title: 'E-Commerce',
       description: 'A scalable e-commerce platform with user authentication, product management, and secure checkout.',
       techStack: ['Laravel', 'Laravel UI', 'Blade', 'PHP', 'MySQL'],
@@ -27,7 +36,7 @@ const projects = [
       tag: 'Web Development',
     },
     {
-      uuid: 'c5d6e7f8-g9h0-i1j2-k3l4-m5n6o7p8q9r0',
+      uuid: '5',
       title: 'Translator App',
       description: 'A mobile app that translates text, images, and audio using Google ML Kit.',
       techStack: ['Android Studio', 'Firebase', 'ML Kit (Google)', 'Java'],
