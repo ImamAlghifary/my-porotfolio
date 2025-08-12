@@ -10,8 +10,8 @@ const projects = [
     },
     {
       uuid: '2',
-      title: 'Portofolio Website',
-      description: 'A personal portfolio website to showcase my skills and projects.',
+      title: 'Portflio Website',
+      description: 'A personal portflio website to showcase my skills and projects.',
       techStack: ['React', 'Tailwind CSS', 'Vite'],
       image: 'project_1.png', 
       link: 'https://github.com/ImamAlghifary/my-porotfolio.git',
