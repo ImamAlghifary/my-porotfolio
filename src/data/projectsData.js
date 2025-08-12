@@ -14,7 +14,7 @@ const projects = [
       description: 'A personal portflio website to showcase my skills and projects.',
       techStack: ['React', 'Tailwind CSS', 'Vite'],
       image: 'project_1.png', 
-      link: 'https://github.com/ImamAlghifary/my-porotfolio.git',
+      link: 'https://github.com/ImamAlghifary/my-portfolio.git',
       tag: 'Web Development', 
     },
     {
